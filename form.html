@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-br">
+ 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Caio Oliveira">
+    <meta name="generator" content="Hugo 0.104.2">
+    <meta name="theme-color" content="#712cf9">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="css/formStyle.css">
+  </head>
+ 
+  <body>
+    
+    <header>
+      <a id="fintech" href="index.html"><h3>Fintech</h3></a>
+    </header>
+    
+    <h2>Formulário de Cadastro</h2>
+    
+    <form id="formulario">
+      <label >Nome:</label><br>
+      <input type="text" id="fname"><br><br>
+
+      <label>Sobrenome:</label><br>
+      <input type="text" id="lname"><br><br>
+
+      <label>Endereço:</label><br>
+      <input type="text" id="address"><br><br>
+
+      <label>CEP:</label><br>
+      <input type="number" id="postalcode"><br><br>
+
+      <label>CPF:</label><br>
+      <input type="number" id="doccpf"><br><br>
+
+      <label>RG:</label><br>
+      <input type="text" id="docrg"><br><br>
+
+      <label>E-mail:</label><br>
+      <input type="email" id="email"><br><br>
+
+      <label>Password:</label><br>
+      <input type="password" id="password"><br>
+    </form>
+      <div>
+        <input type="checkbox" id="contract" name="contract" value="contract">
+        <label for="contract"> Li e aceito os termos de condições de contrato.</label><br>
+        
+        <input type="checkbox" id="notify" name="notify" value="notify">
+        <label for="notify"> Aceito receber mensagens de novidades da plataforma</label><br>
+        
+        <button type="button" onclick= "alert('Enviado com Sucesso!')">Enviar</button>
+      
+      </div>
+
+      <footer>
+        <p>Siga nossa pagina no facebook e Instragram <a href="">Fintech</a>, by <a href="">@Fintech</a>.</p>
+      </footer>
+
+  </body>
+
+</html>
